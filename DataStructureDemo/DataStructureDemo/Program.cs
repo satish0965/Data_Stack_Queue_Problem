@@ -121,10 +121,10 @@ namespace DataStructureDemo
             queue.DisplayQueue();
             queue.Top();
 
-            ////UC4: Check dequeue operation queue
+            //UC4: Check dequeue operation queue
 
-            //queue.Dequeue();
-            //queue.DisplayQueue();
+            queue.Dequeue();
+            queue.DisplayQueue();
         }
     }
 }
