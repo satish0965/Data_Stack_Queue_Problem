@@ -104,10 +104,10 @@ namespace DataStructureDemo
             stack.DisplayStack();
             stack.Top();
 
-            //////UC-2
-            ////Delete the topmost element and return it.
-            //stack.pop();
-            //stack.DisplayStack();
+            ////UC-2
+            //Delete the topmost element and return it.
+            stack.pop();
+            stack.DisplayStack();
 
             //////UC-3
             ////Delete the topmost element and return it.
