@@ -109,17 +109,17 @@ namespace DataStructureDemo
             stack.pop();
             stack.DisplayStack();
 
-            //////UC-3
-            ////Delete the topmost element and return it.
-            //Queue queue = new Queue();
-            //Node nodeA = new Node(56);
-            //Node nodeB = new Node(30);
-            //Node nodeC = new Node(70);
-            //queue.Enqueue(56);
-            //queue.Enqueue(30);
-            //queue.Enqueue(70);
-            //queue.DisplayQueue();
-            //queue.Top();
+            ////UC-3
+            //Delete the topmost element and return it.
+            Queue queue = new Queue();
+            Node nodeA = new Node(56);
+            Node nodeB = new Node(30);
+            Node nodeC = new Node(70);
+            queue.Enqueue(56);
+            queue.Enqueue(30);
+            queue.Enqueue(70);
+            queue.DisplayQueue();
+            queue.Top();
 
             ////UC4: Check dequeue operation queue
 
